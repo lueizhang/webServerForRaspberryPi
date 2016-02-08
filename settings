@@ -3,16 +3,15 @@ echo "this automatic setting will guide you install php5, apache2, mysql for you
 sudo apt-get install mysql-server mysql-client apache2 php5 libapache2-mod-php5 \
 php5-mysql php5-curl php5-gd php5-idn php-pear php5-imagick php5-imap php5-mcrypt \
 php5-memcache php5-ming php5-ps php5-pspell php5-recode php5-snmp php5-sqlite \
-php5-tidy php5-xmlrpc php5-xsl mysql
+php5-tidy php5-xmlrpc php5-xsl python-dev libmysqlclient-dev
 
-echo "***************************"
-echo python mysqldb bag will be installed...
-sudo apt-get python-dev libmysqlclient-dev
+echo "******************************************"
 echo "python setup environment has been installed,"
 echo "Download MySQL for python from the website followed:"
 echo "http://sourceforge.net/projects/mysql-python/files/?source=navbar"
 echo "edit file site.cfg, mysql_config = /usr/bin/mysql_config"
 echo "and input:"
 echo "sudo python setup.py install"
+echo "******************************************"
 
 
